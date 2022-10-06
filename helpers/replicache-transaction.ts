@@ -7,9 +7,9 @@ import {
 
 import {
   filterAsyncIterable,
-  mergeAsyncIterables,
   isScanIndexOptions,
   makeScanResult,
+  mergeAsyncIterables,
 } from "./replicache.js";
 
 import { delEntry, getEntries, getEntry, putEntry } from "./data.ts";

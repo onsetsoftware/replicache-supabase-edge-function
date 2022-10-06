@@ -1,6 +1,6 @@
 // Low-level config and utilities for Postgres.
 
-import { Pool, QueryObjectResult, type Payload } from "../deps.ts";
+import { type Payload, Pool, QueryObjectResult } from "../deps.ts";
 
 import { createDatabase } from "./schema.ts";
 import { getDBConfig } from "./config.ts";

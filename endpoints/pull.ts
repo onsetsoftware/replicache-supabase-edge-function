@@ -1,10 +1,10 @@
-import { Auth, transact } from "../db/pg.ts";
+import { transact } from "../db/pg.ts";
 import {
   getChangedEntries,
   getCookie,
   getLastMutationID,
 } from "../helpers/data.ts";
-import { z, PullRequest, PullResponse, decode, Payload } from "../deps.ts";
+import { Payload, PullRequest, PullResponse, z } from "../deps.ts";
 
 const pullRequest = z.object({
   clientID: z.string(),
